@@ -1,0 +1,54 @@
+@import url(./animation.css);
+@import url(./linear.css);
+@import url(./attacker.css);
+
+:root {
+    --radar-color: #e4a64e;
+    --linear-x-y: #ebc288;
+    --linear-all: #E09B3D;
+    --background: rgba(26, 25, 25, 0.507);
+    --attacker-color: rgba(255, 0, 0, 0.589);
+}
+
+body {
+    background: #3e3e3e;
+}
+
+.header {
+    color: #E09B3D;
+    font-weight: bold;
+    font-size: 2.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 7rem;
+    cursor: pointer;
+    user-select: none;
+}
+
+.scanner-body {
+    width: 140px;
+    height: 180px;
+    padding-left: 40px;
+    background: var(--background);
+    position: absolute;
+    top: 35%;
+    left: 45%;
+    border-radius: 50%;
+    overflow: hidden;
+    z-index: 0;
+    border: 1px solid var(--radar-color);
+}
+
+.scanner {
+    width: 0;
+    height: 0;
+    border-top: 90px solid var(--radar-color);
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    transform-origin: bottom center;
+    animation: spinner 3s linear infinite;
+}
+
+

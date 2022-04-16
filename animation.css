@@ -1,0 +1,15 @@
+@keyframes spinner {
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes attacker {
+    0%{
+        background: transparent;
+    }
+    100%{
+        background: var(--attacker-color);
+        box-shadow: 0 0 10px 5px var(--attacker-color)
+    }
+}

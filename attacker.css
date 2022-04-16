@@ -1,0 +1,30 @@
+.attacker-1, .attacker-2, .attacker-3, .attacker-4 {
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    border-radius: 50%;
+}
+
+.attacker-1 {
+    animation: attacker 2s infinite;
+}
+
+.attacker-2 {
+    animation: attacker 2s 1s infinite;
+    right: 25px;
+    bottom: 50px;
+}
+
+.attacker-3 {
+    animation: attacker 2s 1.5s infinite;
+    top: 27px;
+    left: 50px;
+}
+
+.attacker-4 {
+    animation: attacker 2s 2.5s infinite;
+    top: 38px;
+    left: 120px;
+}
+
+

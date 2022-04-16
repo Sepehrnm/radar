@@ -1,0 +1,55 @@
+.scanner-body>.linear-x {
+    transform: translateY(-10px);
+}
+
+.scanner-body>.linear-y {
+    transform: rotate(90deg);
+}
+
+.scanner-body>.linear-y , .linear-x {
+    height: 2px;
+    border: 0;
+    background: var(--linear-x-y);
+    width: 200px;
+    position: absolute;
+    left: -10px;
+    z-index: 1;
+}
+
+.linear-1, .linear-2, .linear-3, .linear-4, .linear-5  {
+    border-radius: 50%;
+    border: 2px solid var(--linear-all);
+    position: absolute;
+}
+
+.linear-1 {
+    width: 30px;
+    height: 30px;
+    transform: translate(33px , -17px);
+}
+
+.linear-2 {
+    width: 60px;
+    height: 60px;
+    transform: translate(18px , -32px); 
+}
+
+.linear-3 {
+    width: 90px;
+    height: 90px;
+    transform: translate(3px , -47px);
+}
+
+.linear-4 {
+    width: 120px;
+    height: 120px;
+    transform: translate(-11px , -62px);
+}
+
+.linear-5 {
+    width: 150px;
+    height: 150px;
+    transform: translate(-26px , -77px);
+}
+
+
